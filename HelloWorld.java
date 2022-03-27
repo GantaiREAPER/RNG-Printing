@@ -6,7 +6,7 @@ class HELLOWORLD
         Scanner s=new Scanner(System.in);
         System.out.println("Enter Taregeted String");
         String st=s.nextLine();
-        for (double j=1.0;j<=500000.0;j=j+0.001);
+        for (double j=1.0;j<=500000.0;j=j+0.001);           //Time Delay Loop
         System.out.println("\f");
         st=st.toUpperCase();
         String nst="";
@@ -15,7 +15,7 @@ class HELLOWORLD
         char ch;
         /*
         for (i=1;i<=100;i++)
-        System.out.println((int)((Math.random()*1000)%100%26));
+        System.out.println((int)((Math.random()*1000)%100%26));        <---RNG Block
         */
         for (i=0;i<l;i++)
         {
@@ -29,21 +29,21 @@ class HELLOWORLD
                 nst=nst+ch;
                 System.out.println("Character Generated:\t\t\t\t\t\t\t\t\tTarget word:"+st);
                 System.out.println(ch);
-                for (j=1.0;j<=500000.0;j=j+0.001);
+                for (j=1.0;j<=500000.0;j=j+0.001);           //Time Delay Loop
                 System.out.println("Required Character Found.");
-                for (j=1.0;j<=500000.0;j=j+0.0001);
+                for (j=1.0;j<=500000.0;j=j+0.0001);          //Time Delay Loop
                 System.out.println("String Found Until Now:");
-                for (j=1.0;j<=500000.0;j=j+0.001);
+                for (j=1.0;j<=500000.0;j=j+0.001);           //Time Delay Loop
                 System.out.println(nst);
-                for (j=1.0;j<=500000.0;j=j+0.0001);
+                for (j=1.0;j<=500000.0;j=j+0.0001);          //Time Delay Loop
                 System.out.println("\f");
             }
             else
             {
                 System.out.println("Character Generated:\t\t\t\t\t\t\t\t\tTarget word:"+st);
-                for (j=1.0;j<=500000.0;j=j+0.001);
+                for (j=1.0;j<=500000.0;j=j+0.001);          //Time Delay Loop
                 System.out.println(ch);
-                for (j=1.0;j<=500000.0;j=j+0.001);
+                for (j=1.0;j<=500000.0;j=j+0.001);          //Time Delay Loop
                 System.out.println("\f");
                 i--;
             }
